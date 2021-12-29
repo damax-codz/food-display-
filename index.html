@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3e330e8926.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   
+    *{
+        box-sizing: border-box;
+
+    }
+    .box{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .box-two{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+
+
+
+   .first{
+    height: 275px;
+    width: 170px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-shadow: 0.5px 0.5px 4px 0.5px gray;
+}
+
+.food-one{
+    width: 170px;
+    height:120px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.words{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h5{
+    margin-top: 5px; 
+    margin-bottom: 0;
+}
+h4{
+    font: 10px;
+}
+.p{
+    margin: 0; 
+    padding: 0;
+    font-size: 11px;
+    color: rgb(136, 135, 135);
+}
+.po{
+    font-size: 12px;
+    color:rgb(10, 10, 10) ;
+}
+.hug{
+   display: flex;
+   flex-direction: column;
+   padding: 5px;
+}
+.bott{
+    width:35px;
+    height: 37px;
+    border-top-left-radius: 8px;
+    background-color: orange;
+    color: white;
+    border:2px orange;
+}
+.bott:hover{
+    background-color: white;
+    color: orange;
+    border: 1px solid ;
+    cursor: pointer;
+    transition: 2s;
+}
+.add{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.damax{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:"Lobster";
+}
+.cook{
+    width: 40px;
+    height: 40px;
+    
+}
+.menu{
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-right: 35px;
+}
+.menu:hover{
+    cursor: pointer;
+}
+.head{
+margin-bottom: 40px;
+margin-left: 36px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+
+@media(max-width:700px){
+    .damax{font-size: 20px;}
+    .head{margin-left: 10px;}
+    .menu{width: 20px; height: 20px; margin-right: 10px;}
+    .box{display: grid;}
+    .box-two{display:grid}
+    .first{margin-top: 15px; width: 350px; height: 333px;}
+    .food-one{width: 250px;}
+    .bott{width:40px ; height:51px ;}
+    .food-one{width: 350px; height: 170px;}
+    h5{font-size: 15px;}
+    .p{font-size: 12px;}
+    .po{font-size: 13px;}
+}
+
+</style>
+<body>
+<div class="head">
+<div class="hs">
+    <h2 class="damax">Damax Cuisine <img src="https://cdns.iconmonstr.com/wp-content/assets/preview/2021/240/iconmonstr-cook-3.png" class="cook"></h2>
+</div>
+
+
+    <img src="https://cdns.iconmonstr.com/wp-content/assets/preview/2013/96/iconmonstr-menu-1.png" class="menu">
+
+
+</div>
+  
+
+<div class="box">
+    <div class="first">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEwPrsh-SunERvaCDIgWoVNeZbV_P1zLW4qA&usqp=CAU"
+    class="food-one" >
+    <div class="hug">
+    <div class="words">
+        <h5 > Burger</h5>
+        <h5>18$</h5>   
+    </div>
+    <p class="p">Lorem ipsum dolor sit amet.</p>
+    <p class="po">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, quos?</p >
+        </div>
+       
+        <div class="add">
+    <p style="margin: 5px;">&#11088; &#11088; </p>
+    <button class="bott"> &#43;</button>
+
+      
+    </div>
+    </div>
+    <div class="first">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt9U33l4rdxXCvrD6h1uebX9M2URz7bBbpRA&usqp=CAU"
+        class="food-one" >
+        <div class="hug">
+        <div class="words">
+            <h5 >Strawberry Cake</h5>
+            <h5>23$</h5>   
+        </div>
+        <p class="p">Lorem ipsum dolor sit amet.</p>
+        <p class="po">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, quos?</p >
+            </div>
+            <div class="add">
+        <p style="margin: 5px;">&#11088; &#11088;&#11088; </p>
+        <button class="bott"> &#43;</button>
+    
+          
+        </div>
+        </div>
+        <div class="first">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdxrc0W9TKaGPqvX5JdZ-wCilhBAMum91znw&usqp=CAU"
+            class="food-one" >
+            <div class="hug">
+            <div class="words">
+                <h5 > Pan Cakes</h5>
+                <h5>18$</h5>   
+            </div>
+            <p class="p">Lorem ipsum dolor sit amet.</p>
+            <p class="po">Lorem
+                 ipsum dolor sit, amet consectetur adipisicing elit. At, quos?</p >
+                </div>
+                <div class="add">
+            <p style="margin: 5px;">&#11088; &#11088; &#9734; </p>
+            <!-- <button class="bott" id="dam"></button> -->
+            <button onclick="document.getElementById('dam').innerHTML= button()" class="bott"> &#43;</button>
+        
+              
+            </div>
+            </div>
+                
+            
+            <div class="first">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_EC6wvbjzh5K-T3p0BCf7_uiXcZXBnO2oLQ&usqp=CAU"
+                class="food-one" >
+                <div class="hug">
+                <div class="words">
+                    <h5 > Potato Chips</h5>
+                    <h5>9$</h5>   
+                </div>
+                <p class="p">Lorem ipsum dolor sit amet.</p>
+                <p class="po">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, quos?</p >
+                    </div>
+                    <div class="add">
+                <p style="margin: 5px;">&#11088; &#11088; &#11088;&#11088;</p>
+                <button class="bott"> &#43;</button>
+            
+                  
+                </div>
+                </div>
+                    
+                </div>
+    </div>
+    <div class="box-two">
+        <div class="first">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzW7pD-wUMlUchKYexIbALpXvtSvNij8SU7w&usqp=CAU"
+        class="food-one" >
+        <div class="hug">
+        <div class="words">
+            <h5 > Salvanie Bread</h5>
+            <h5>12$</h5>   
+        </div>
+        <p class="p">Lorem ipsum dolor sit amet.</p>
+        <p class="po">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, quos?</p >
+            </div>
+            <div class="add">
+        <p style="margin: 5px;">&#11088; &#11088;&#11088;&#9734;  </p>
+        <button class="bott"> &#43;</button>
+    
+          
+        </div>
+        </div>
+        <div class="first">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyH6RgxMpsi-cqG7fIUuXs9rn9mWSRZtc7Ng&usqp=CAU"
+            class="food-one" >
+            <div class="hug">
+            <div class="words">
+                <h5 > Chocolate Doughnut</h5>
+                <h5>17$</h5>   
+            </div>
+            <p class="p">Lorem ipsum dolor sit amet.</p>
+            <p class="po">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, quos?</p >
+                </div>
+                <div class="add">
+            <p style="margin: 5px;">&#11088; &#11088; &#9734; </p>
+            <button class="bott"> &#43;</button>
+        
+              
+            </div>
+            </div>
+            <div class="first">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgzJ_Lbwo6--eR_y6FcCh7tRm-yyWBk6fVAg&usqp=CAU"
+                class="food-one" >
+                <div class="hug">
+                <div class="words">
+                    <h5 > Noodle Bolonzo</h5>
+                    <h5>22$</h5>   
+                </div>
+                <p class="p">Lorem ipsum dolor sit amet.</p>
+                <p class="po">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, quos?</p >
+                    </div>
+                    <div class="add">
+                <p style="margin: 5px;">&#11088; &#11088; &#9734; </p>
+                <button class="bott"> &#43;</button>
+            
+                  
+                </div>
+                </div>
+                    
+                
+                <div class="first">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUycc6zvQ3xbKCePLxz1h4D1qgWhvyavYghw&usqp=CAU"
+                    class="food-one" >
+                    <div class="hug">
+                    <div class="words">
+                        <h5 > Damax Pizza</h5>
+                        <h5>15$</h5>   
+                    </div>
+                    <p class="p">Lorem ipsum dolor sit amet.</p>
+                    <p class="po">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, quos?</p >
+                        </div>
+                        <div class="add">
+                    <p style="margin: 5px;">&#11088; &#11088; </p>
+                    <button class="bott"> &#43;</button>
+                
+                      
+                    </div>
+                    </div>
+                        
+                    </div>
+        </div>
+   </body>
